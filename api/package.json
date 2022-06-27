@@ -1,0 +1,25 @@
+{
+  "author": "Corno",
+  "bin": {},
+  "dependencies": {
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "keywords": [],
+  "main": "./dist/index.js",
+  "bugs": {
+    "url": "https://github.com/corno/astn/issues"
+  },
+  "description": "api for serializing ASTN data",
+  "homepage": "https://github.com/corno/astn#readme",
+  "license": "ISC",
+  "name": "astn-expect-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/astn-expect.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.0.2"
+}

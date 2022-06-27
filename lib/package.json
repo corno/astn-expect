@@ -1,0 +1,26 @@
+{
+  "author": "Corno",
+  "bin": {},
+  "dependencies": {
+    "pareto-runtime": "^0.22.0"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "keywords": [],
+  "main": "./dist/index.js",
+  "bugs": {
+    "url": "https://github.com/corno/astn/issues"
+  },
+  "description": "",
+  "homepage": "https://github.com/corno/astn#readme",
+  "license": "ISC",
+  "name": "astn-expect-lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/astn-expect.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.0.2"
+}
