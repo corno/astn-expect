@@ -2,7 +2,7 @@
 */
 import * as pr from "pareto-runtime"
 import * as th from "astn-handlers-api"
-import * as astn from "../../../api"
+import * as astn from "astn-expect-api"
 
 interface ICreateContext<EventAnnotation> {
     createDictionaryHandler(

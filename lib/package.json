@@ -2,6 +2,7 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
+    "astn-expect-api": "^0.1.0",
     "pareto-runtime": "^0.22.0"
   },
   "files": [

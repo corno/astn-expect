@@ -1,6 +1,6 @@
 import * as pr from "pareto-runtime"
 
-import * as astn from "../../../api"
+import * as astn from "astn-expect-api"
 
 import { printExpectedValue, printExpectedValueType } from "./printExpectedValue"
 
