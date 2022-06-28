@@ -22,6 +22,6 @@
     "url": "git+https://github.com/corno/astn-expect.git"
   },
   "types": "dist/index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "content-fingerprint": "e5af8455155b18c77fce5ddf5cfd5d5934b53541"
 }
