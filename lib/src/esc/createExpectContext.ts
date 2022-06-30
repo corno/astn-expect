@@ -1,5 +1,6 @@
 /* eslint
 */
+import * as pl from "pareto-lang-lib"
 import * as pr from "pareto-runtime"
 import * as th from "astn-handlers-api"
 import * as astn from "astn-expect-api"
@@ -138,7 +139,7 @@ function createCreateContext<EventAnnotation>(
                                         raiseWarning(["duplicate entry", { key: propertyData.token.token.value }], propertyData.token.annotation)
                                         break
                                     default:
-                                        pr.au(duplicateEntrySeverity[0])
+                                        pl.au(duplicateEntrySeverity[0])
                                 }
                                 switch (onDuplicateEntry[0]) {
                                     case "ignore":
@@ -146,7 +147,7 @@ function createCreateContext<EventAnnotation>(
                                     case "overwrite":
                                         return onEntry(propertyData)
                                     default:
-                                        return pr.au(onDuplicateEntry[0])
+                                        return pl.au(onDuplicateEntry[0])
                                 }
                             } else {
                                 return onEntry(propertyData)
@@ -210,7 +211,7 @@ function createCreateContext<EventAnnotation>(
                                         raiseWarning(["duplicate property", { name: $$.token.token.value }], $$.token.annotation)
                                         break
                                     default:
-                                        return pr.au(duplicateEntrySeverity[0])
+                                        return pl.au(duplicateEntrySeverity[0])
                                 }
                                 switch (onDuplicateEntry[0]) {
                                     case "ignore":
@@ -218,7 +219,7 @@ function createCreateContext<EventAnnotation>(
                                     case "overwrite":
                                         return onProperty()
                                     default:
-                                        return pr.au(onDuplicateEntry[0])
+                                        return pl.au(onDuplicateEntry[0])
                                 }
                             } else {
                                 return onProperty()

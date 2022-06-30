@@ -1,4 +1,4 @@
-import * as pr from "pareto-runtime"
+import * as pl from "pareto-lang-lib"
 
 import * as astn from "astn-expect-api"
 
@@ -53,7 +53,7 @@ export function printExpectedValueType(vt: astn.ExpectedValueType): string {
             return `a verbose group ( () )`
         }
         default:
-            return pr.au(vt[0])
+            return pl.au(vt[0])
     }
 }
 

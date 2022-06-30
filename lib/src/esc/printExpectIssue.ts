@@ -1,4 +1,4 @@
-import * as pr from "pareto-runtime"
+import * as pl from "pareto-lang-lib"
 
 import * as astn from "astn-expect-api"
 
@@ -71,7 +71,7 @@ export function printExpectIssue(issue: astn.ExpectIssue): string {
                         return ')'
                     }
                     default:
-                        return pr.au($.token[0])
+                        return pl.au($.token[0])
                 }
             })()
             return `expected '${val}' but found '${$.found}'`
@@ -101,6 +101,6 @@ export function printExpectIssue(issue: astn.ExpectIssue): string {
             return `unknown option '${$.found}', choose from ${$["valid options"].map(($) => `'${$}'`).join(", ")} `
         }
         default:
-            return pr.au(issue[0])
+            return pl.au(issue[0])
     }
 }

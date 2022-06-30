@@ -3,7 +3,8 @@
   "bin": {},
   "dependencies": {
     "astn-expect-api": "^0.1.1",
-    "pareto-runtime": "^0.22.0"
+    "pareto-lang-lib": "^0.7.0",
+    "pareto-runtime": "^0.23.0"
   },
   "files": [
     "dist",
@@ -24,5 +25,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.4.1",
-  "content-fingerprint": "07d9efee70ed3153977ae28c33811e1fb194ca55"
+  "content-fingerprint": "62a1baa01eac4257afa549713b149551453dda98"
 }
