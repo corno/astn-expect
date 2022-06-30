@@ -2,7 +2,7 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
-    "astn-expect-api": "^0.1.1",
+    "astn-expect-api": "^0.1.2",
     "pareto-lang-lib": "^0.7.0",
     "pareto-runtime": "^0.23.0"
   },
@@ -25,5 +25,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.4.1",
-  "content-fingerprint": "62a1baa01eac4257afa549713b149551453dda98"
+  "content-fingerprint": "49d048efe48b30fe742ed99890c6a0270c890eaf"
 }
