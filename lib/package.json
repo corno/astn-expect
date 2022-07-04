@@ -3,7 +3,7 @@
   "bin": {},
   "dependencies": {
     "astn-expect-api": "^0.1.2",
-    "pareto-lang-lib": "^0.7.0",
+    "pareto-lang-lib": "^0.8.0",
     "pareto-runtime": "^0.23.0"
   },
   "files": [
