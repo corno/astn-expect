@@ -1,6 +1,6 @@
 /* eslint
 */
-import * as pl from "pareto-lang-lib"
+import * as pl from "pareto-lib-core"
 import * as pr from "pareto-runtime"
 import * as th from "astn-handlers-api"
 import * as astn from "astn-expect-api"
