@@ -3,4 +3,6 @@ interface Array<T> {
     join(separator: string): string
     sort(): T[]
     indexOf(v: string): number
+    push(v: T): void
+
 }
